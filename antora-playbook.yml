@@ -1,0 +1,14 @@
+site:
+  title: InetSoft Docs
+  url: https://docs.demo.com
+  start_page: InetSoftUserDocumentation::index.adoc
+content:
+   sources: 
+   - url: https://github.com/davidfass/docsRepo.git
+     branches: 'main'
+     start_path: doc/InetSoftUserDocumentation
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
