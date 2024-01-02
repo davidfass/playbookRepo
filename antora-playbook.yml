@@ -4,9 +4,9 @@ site:
   start_page: InetSoftUserDocumentation::index.adoc
 content:
    sources: 
-   - url: https://github.com/davidfass/docsRepo
+   - url: https://github.com/davidfass/docsRepo/docs
      branches: 'main'
-     start_path: doc/InetSoftUserDocumentation
+     start_path: docs/InetSoftUserDocumentation
 
 ui:
   bundle:
